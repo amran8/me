@@ -1,0 +1,69 @@
+.bgimg{
+    background-image: url(Bangladesh.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+.headerset{
+  padding: 300px;
+  box-sizing: border-box;
+  margin-top: 280px;  
+}
+.headerset h1{
+    font-size: 70;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7s ease;
+}
+.headerset h6{
+    font-size: 24;
+    padding: 20;
+    transition: 0.7s ease;
+}
+.headerset h1:hover{
+    font-size: 74px;
+    color: darkgray;
+}
+.headerset h6:hover{
+    font-size: 24px;
+    color: darkgray;
+}
+@media only screen and (max-weight: 800px){
+.headerset h1{ font-size: 50px;
+               font-weight: bolder;
+               font-family: cursive;
+               transition: 0.7s ease;}
+
+            .headerset{ padding: 300px;
+                       box-sizing: border-box;
+                       margin-top: 100px;} 
+}
+.posts{
+    color: black;
+    margin: 270px;
+    font-size: 56px;
+    margin-bottom: 25px;
+}
+.navbar nav li a{
+    transition: 0.7s ease;
+    margin: 18px;
+}
+.navbar nav li a:hover{
+    background-color: black;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+}
+.card group{
+    margin: 25px;
+    transition: 0.7s;
+}
+.card{
+    margin: 25px;
+}
+.card:hover{
+    opacity: 0.3;
+}
+
